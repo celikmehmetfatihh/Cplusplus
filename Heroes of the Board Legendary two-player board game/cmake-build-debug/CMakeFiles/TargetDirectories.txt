@@ -1,0 +1,3 @@
+C:/Users/M/Desktop/SPRING 2022-2023/CNG 242/Heroes of the Board Legendary two-player board game/cmake-build-debug/CMakeFiles/Heroes_of_the_Board_Legendary_two_player_board_game.dir
+C:/Users/M/Desktop/SPRING 2022-2023/CNG 242/Heroes of the Board Legendary two-player board game/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/M/Desktop/SPRING 2022-2023/CNG 242/Heroes of the Board Legendary two-player board game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

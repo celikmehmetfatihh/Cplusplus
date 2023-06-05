@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Heroes_of_the_Board_Legendary_two_player_board_game",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Heroes_of_the_Board_Legendary_two_player_board_game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Heroes_of_the_Board_Legendary_two_player_board_game-Debug-92e2970bfb7625071255.json",
+					"name" : "Heroes_of_the_Board_Legendary_two_player_board_game",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/M/Desktop/SPRING 2022-2023/CNG 242/Heroes of the Board Legendary two-player board game/cmake-build-debug",
+		"source" : "C:/Users/M/Desktop/SPRING 2022-2023/CNG 242/Heroes of the Board Legendary two-player board game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
