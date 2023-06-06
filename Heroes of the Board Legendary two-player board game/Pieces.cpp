@@ -66,3 +66,19 @@ int Pieces::validator(int column) {
     return -1;
 }
 
+int Pieces::getDamage() const {
+    return damage;
+}
+
+int Pieces::getLife() const {
+    return life;
+}
+
+void Pieces::setLife(int life) {
+    Pieces::life = life;
+}
+
+void Pieces::setDamage(int damage) {
+    Pieces::damage = damage;
+}
+

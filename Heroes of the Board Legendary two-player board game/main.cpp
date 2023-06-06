@@ -28,32 +28,37 @@ int main() {
         finishFlag = 1;
 
         if (turn == 1) {
-            cout << "-----Player 1's turn-----" << endl;
+            cout << "----Player 1's turn----" << endl;
              g.getB1()->addPiece();
-             cout << "-----Player 1's board-----" << endl;
-            g.getB1()->displayBoard();
+             g.getB1()->attack(*g.getB2());
+            cout << "Board 1\t\t\t  Board 2" << endl;
+            g.getB1()->displayBoard(*g.getB2());
 
             cout << "-----Player 2's turn-----" << endl;
             g.getB2()->addPiece();
-            cout << "-----Player 2's board-----" << endl;
-            g.getB2()->displayBoard();
+            cout << "Board 2\t\t\t  Board 1" << endl;
+            g.getB2()->attack(*g.getB1());
+            g.getB2()->displayBoard(*g.getB1());
 
         }
         else { // turn == 2
             cout << "-----Player 2's turn-----" << endl;
             g.getB2()->addPiece();
-            cout << "-----Player 2's board-----" << endl;
-            g.getB2()->displayBoard();
+            cout << "Board 2\t\t\t  Board 1" << endl;
+            g.getB2()->attack(*g.getB1());
+            g.getB2()->displayBoard(*g.getB1());
 
-            cout << "-----Player 1's turn-----" << endl;
+            cout << "----Player 1's turn----" << endl;
             g.getB1()->addPiece();
-            cout << "-----Player 1's board-----" << endl;
-            g.getB1()->displayBoard();
+            g.getB1()->attack(*g.getB2());
+            cout << "Board 1\t\t\t  Board 2" << endl;
+            g.getB1()->displayBoard(*g.getB2());
         }
 
         if (g.getB1()->getHealth() > 0 && g.getB2()->getHealth() > 0)
             finishFlag = 0;
 
+        turn = rand() % 2 + 1; // if turn is 1, player 1 starts, if turn is 2 player 2 starts the game.
     }while (!finishFlag);
 
     return 0;

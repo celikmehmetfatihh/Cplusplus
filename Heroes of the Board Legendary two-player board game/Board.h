@@ -5,17 +5,16 @@
 
 class Board {
 private:
-    int row;
-    int column;
     int health;
-    char **board;
-    Pieces *pieces[12]; //since board is 4x3, the max piece number can board take is 12.
+    Pieces *board[4][3];
     int pieceCount; // counts how many current pieces exists in the board.
 public:
     Board();
-    void displayBoard();
+    ~Board();
+    void displayBoard(Board &b1);
     void addPiece();
     int getHealth() const;
+    void attack(Board &b);
 };
 
 

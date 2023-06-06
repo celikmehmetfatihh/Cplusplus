@@ -15,6 +15,11 @@ public:
     virtual void specialAttack() = 0; // to make it abstract class
     virtual int validator(int column);
     char getName() const;
+    int getLife() const;
+    void setLife(int life);
+    int getDamage() const;
+
+    void setDamage(int damage);
 };
 
 
